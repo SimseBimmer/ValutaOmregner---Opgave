@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da" lang="da" >
+<head>
+	<title>Valuta Omregner</title>
+    <script src="assets/JavaScript/JavaScript.js" defer></script>
+    <link rel="stylesheet" href="assets/CSS/main.css">
+</head>
+
+<body>
+    <div class="converter">
+        <h2>Valutaomregner</h2>
+        <label for="amount">Beløb:</label>
+        <input type="number" placeholder="DKK" id="amount">
+        <label for="currency">Valuta:</label>
+        <select id="currency">
+          <option value="DKK">Danske kroner (DKK)</option>
+          <option value="USD">US Dollar (USD)</option>
+          <option value="EUR">Euro (EUR)</option>
+          
+        </select>
+        <button onclick="convertCurrency()">Konverter</button>
+        <div id="result"></div>
+</body>
+</html>
